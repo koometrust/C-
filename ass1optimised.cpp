@@ -12,7 +12,7 @@ public:
 
 //this function calculates the average marks
 double calculateAverage(int subject1, int subject2, int subject3) {
-    return static_cast<double>(subject1 + subject2 + subject3) / 3.0;
+    return static_cast<double>(subject1 + subject2 + subject3) / 3.0; //static cast changes the ints to doubles
 }
 
 int main() {
